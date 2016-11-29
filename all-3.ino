@@ -570,7 +570,7 @@ void NEW_serial()
 	{
 		B_OpenTolight = 0;
 		Serial.print("D_OpenTolight");//2为开灯，1为关窗帘,0为无动作
-		Serial.println();
+		Serial.println(" ");
 		D_OpenTolight = 0;
 
 	}
@@ -583,7 +583,7 @@ void NEW_serial()
 	{
 		B_OpenToWater = 0;
 		Serial.print("D_OpenToWater");//1为开始浇水，2为关闭,0为无动作
-		Serial.println();
+		Serial.println(" ");
 		D_OpenToWater = 0;
 
 	}
